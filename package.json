@@ -18,5 +18,8 @@
     "bugs": {
         "url": "https://github.com/ACLauridsen/vibestor_types/issues"
     },
-    "homepage": "https://github.com/ACLauridsen/vibestor_types#readme"
+    "homepage": "https://github.com/ACLauridsen/vibestor_types#readme",
+    "devDependencies": {
+        "@types/express": "^4.17.15"
+    }
 }
