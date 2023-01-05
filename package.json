@@ -1,0 +1,22 @@
+{
+    "name": "@vibestor/types",
+    "version": "1.0.0",
+    "description": "Types used in vibestor",
+    "main": "./lib/index.js",
+    "scripts": {
+        "init": "npm run clean:auto && npm run build",
+        "build": "tsc",
+        "clean:auto": "rd /s /q ./lib/auto/* && rd /s /q ./src/auto/* && echo 'export {}' > ./src/auto/index.ts",
+        "test": "jest --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ACLauridsen/vibestor_types.git"
+    },
+    "keywords": [],
+    "author": "acl@vibestor.com",
+    "bugs": {
+        "url": "https://github.com/ACLauridsen/vibestor_types/issues"
+    },
+    "homepage": "https://github.com/ACLauridsen/vibestor_types#readme"
+}
