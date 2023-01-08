@@ -6,5 +6,4 @@ export declare type Nullable<T> = T | null | undefined;
 export interface IDataSourceBase {
     tracks(req: Request, res: Response, next: NextFunction): Promise<void>;
     genres(req: Request, res: Response, next: NextFunction): Promise<void>;
-    subGenres(req: Request, res: Response, next: NextFunction): Promise<void>;
 }
