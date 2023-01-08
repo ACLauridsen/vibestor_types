@@ -20,7 +20,7 @@ export interface Playlist {
     tracks: Tracks
 }
 
-interface SessionFilters {
+export interface SessionFilters {
     genre?: Genre
 }
 

@@ -17,6 +17,9 @@ export interface Playlist {
     genreId: string | null;
     tracks: Tracks;
 }
+export interface SessionFilters {
+    genre?: Genre;
+}
 export interface Genre {
     name: string;
     id: string | null;
