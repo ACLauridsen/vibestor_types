@@ -6,6 +6,7 @@ export interface Track {
     albumName: string;
     albumId: string;
     isrc: string;
+    dataSource: DataSource;
 }
 export interface Tracks {
     [trackId: string]: Track;
@@ -13,7 +14,6 @@ export interface Tracks {
 export interface Playlist {
     name: string;
     created: string;
-    dataSource: DataSource;
     genre: string;
     genreId: string | null;
     tracks: Tracks;
