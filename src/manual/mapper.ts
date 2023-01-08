@@ -20,6 +20,10 @@ export interface Playlist {
     tracks: Tracks
 }
 
+interface SessionFilters {
+    genre?: Genre
+}
+
 export interface Genre {
     name: string
     id: string | null
