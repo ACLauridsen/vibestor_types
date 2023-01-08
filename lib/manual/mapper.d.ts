@@ -1,5 +1,6 @@
 export interface Track {
     name: string;
+    id: string;
     artistName: string;
     previewURL: string;
     imageURL: string;
