@@ -21,7 +21,7 @@ export interface Playlist {
 }
 
 export interface SessionFilters {
-    genre?: Genre
+    genre?: string
 }
 
 export interface Genre {

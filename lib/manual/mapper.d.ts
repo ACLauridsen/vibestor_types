@@ -18,7 +18,7 @@ export interface Playlist {
     tracks: Tracks;
 }
 export interface SessionFilters {
-    genre?: Genre;
+    genre?: string;
 }
 export interface Genre {
     name: string;
