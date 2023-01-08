@@ -2,6 +2,7 @@ export interface Track {
     name: string
     artistName: string
     previewURL: string
+    imageURL: string
     albumName: string
     albumId: string
     isrc: string
