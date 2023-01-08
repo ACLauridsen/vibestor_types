@@ -17,6 +17,10 @@ export interface Playlist {
     genreId: string | null;
     tracks: Tracks;
 }
+export interface Genre {
+    name: string;
+    id: string | null;
+}
 export interface Playlists {
     [name: string]: Playlist;
 }

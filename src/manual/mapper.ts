@@ -20,6 +20,11 @@ export interface Playlist {
     tracks: Tracks
 }
 
+export interface Genre {
+    name: string
+    id: string | null
+}
+
 export interface Playlists {
     [name: string]: Playlist
 }
