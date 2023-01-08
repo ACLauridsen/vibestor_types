@@ -13,6 +13,8 @@ export interface Playlist {
     name: string;
     created: string;
     dataSource: DataSource;
+    genre: string;
+    genreId: string | null;
     tracks: Tracks;
 }
 export interface Playlists {
